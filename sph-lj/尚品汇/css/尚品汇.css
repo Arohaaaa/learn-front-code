@@ -1,0 +1,44 @@
+/* 基本样式 */
+.container {
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+/* 顶部导航栏样式 */
+.topbar {
+    height: 30px;
+}
+.wel>span,.wel>a {
+    /* color: #666; */
+    font-size: 12px;
+}
+.wel {
+    line-height: 30px;
+    font-size: 0;
+    height: 30px;
+}
+.wel>.hello {
+    margin-right: 28px;
+}
+.wel>.login {
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.wel>.register {
+    padding-left: 10px;
+}
+ul.topnav>li {
+    float: left;
+    
+}
+ul.topnav>li>a {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+ul.topnav>li:first-child>a {
+    padding-left: 0;
+}
+ul.topnav>li:last-child>a {
+    padding-right: 0;
+    border: 0;
+}
