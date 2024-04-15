@@ -1,11 +1,14 @@
 /* 基本样式 */
 .container {
     width: 1190px;
-    height: 30px;
     margin: 0 auto;
 }
-/* 顶部导航栏样式 */
+/* #region顶部导航栏样式 */
 .topbar {
+    height: 30px;
+}
+.topbar>.container {
+    background-color: #ececec;
     height: 30px;
 }
 .wel>span,.wel>a {
@@ -27,6 +30,9 @@
 .wel>.register {
     padding-left: 10px;
 }
+.topbar .rightfix {
+    margin-top: 5px;
+}
 ul.topnav>li {
     float: left;
     
@@ -41,4 +47,48 @@ ul.topnav>li:first-child>a {
 ul.topnav>li:last-child>a {
     padding-right: 0;
     border: 0;
+}
+/* #endregion */
+
+/* #region头部样式 */
+.header>.container {
+    height: 120px;
+}
+.header form {
+    margin-top: 42px;
+    font-size: 0;
+}
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: #dd302d solid 1px;
+}
+.header .search button {
+    height: 36px;
+    width: 80px;
+    background-color: #dd302d;
+    vertical-align: top;
+    background-image: url(../img/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+/* #endregion */
+
+/* #region主导航区样式 */
+.main-nav .nav-title {
+    width: 96px;
+    height: 23px;
+    padding: 13px 48px 12px 46px;
+    background-color: #dd302d;
+    font-size: 16px;
+    color: white;
+}
+.main-nav .nav-item {
+    height: 35px;
+    padding-top: 13px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+#hr {
+    border-top: #dd302d solid 1px;
 }
