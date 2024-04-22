@@ -75,6 +75,9 @@ ul.topnav>li:last-child>a {
 /* #endregion */
 
 /* #region主导航区样式 */
+.main-nav {
+    margin-bottom: 10px;
+}
 .main-nav .nav-title {
     width: 96px;
     height: 23px;
@@ -92,3 +95,310 @@ ul.topnav>li:last-child>a {
 #hr {
     border-top: #dd302d solid 1px;
 }
+/* #endregion */
+
+/* 主内容区 */
+
+/* #region侧边栏导航样式 */
+.main-content .slide-nav {
+    width: 174px;
+    height: 440px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: PingFangSC-Medium;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    padding: 9px 0 9px 16px; 
+    color: #333;
+}
+.main-content .slide-nav {
+    position: relative;
+}
+.main-content .slide-nav li {
+    margin-bottom: 7px;
+}
+
+.main-content .slide-nav li:hover {
+    background-color: #dd302d;
+}
+.main-content .slide-nav li:hover>a {
+    color: #fff;
+}
+.main-content .slide-nav li .second-menu {
+    width: 700px;
+    height: 458px;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    background-color: #e3e3e3;
+    display: none;
+    padding: 10px 0 0 20px;
+}
+.main-content .slide-nav li:hover .second-menu {
+    display: block;
+}
+.main-content .slide-nav li dl {
+    padding: 8px 0;
+}
+.main-content .slide-nav li dt a {
+    float: left;
+    color: #000;
+    width: 70px;
+    margin-right: 10px;
+}
+.main-content .slide-nav li dd {
+    float: left;
+    color: #666;
+    border-left: 1px solid #666;
+    padding: 0 10px;
+}
+/* #endregion */
+
+.main-content .sale-link {
+    width: 690px;
+    height: 458px;
+    margin-right: 10px;
+}
+
+/* #region主内容区右侧 */
+
+/* 右侧快报样式 */
+.main-content .classify-nav {
+    width: 290px;
+    height: 458px;
+}
+.main-content .classify-nav .bulletin {
+    width: 262px;
+    height: 151px;
+    border: 1px solid #d9d9d9;
+    padding: 5px 14px 0 14px;
+}
+.main-content .classify-nav .bulletin .title {
+    height: 34px;
+    line-height: 34px;
+    border-bottom: #d9d9d9 1px solid;
+}
+.main-content .classify-nav .bulletin .title #title1 {
+    font-size: 14px;
+    color: black;
+}
+.main-content .classify-nav .bulletin .message {
+    padding-top: 2px;
+}
+.main-content .classify-nav .bulletin .message li {
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+}
+
+/* 右侧图标菜单样式 */
+.main-content .classify-nav .classify-icon {
+    width: 280px;
+    height: 258px;
+    padding: 16px 5px;
+    margin-top: 10px;
+}
+.main-content .classify-icon .cls-icon {
+    width: 70px;
+    height: 86px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-content .classify-icon .cls-icon .icon {
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+    background: url(../img/精灵图-侧边功能.png);
+    overflow: hidden;
+}
+.classify-icon>div:nth-child(1) div:nth-child(1) .icon {
+    background-position: 0px 0px;
+}
+.classify-icon>div:nth-child(1) div:nth-child(2) .icon {
+    background-position: -48px 0px;
+}
+.classify-icon>div:nth-child(1) div:nth-child(3) .icon {
+    background-position: -96px 0px;
+}
+.classify-icon>div:nth-child(1) div:nth-child(4) .icon {
+    background-position: -144px 0px;
+}
+.classify-icon>div:nth-child(2) div:nth-child(1) .icon {
+    background-position: 0px -48px;
+}
+.classify-icon>div:nth-child(2) div:nth-child(2) .icon {
+    background-position: -48px -48px;
+}
+.classify-icon>div:nth-child(2) div:nth-child(3) .icon {
+    background-position: -96px -48px;
+}
+.classify-icon>div:nth-child(2) div:nth-child(4) .icon {
+    background-position: -144px -48px;
+}
+.classify-icon>div:nth-child(3) div:nth-child(1) .icon {
+    background-position: 0px -96px;
+}
+.classify-icon>div:nth-child(3) div:nth-child(2) .icon {
+    background-position: -48px -96px;
+}
+.classify-icon>div:nth-child(3) div:nth-child(3) .icon {
+    background-position: -96px -96px;
+}
+.classify-icon>div:nth-child(3) div:nth-child(4) .icon {
+    background-position: -144px -96px;
+}
+/* #endregion */
+
+/* 秒杀区样式 */
+.spikes {
+    margin-top: 10px;
+}
+.spikes img {
+    float: left;
+    margin-right: 11px;
+}
+.spikes img:last-child {
+    margin: 0;
+}
+
+/* #region家用电器区样式 */
+
+/* 家用电器区头部样式 */
+.appliances {
+    margin-top: 48px;
+}
+.app-header span {
+    font-size: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.app-header ul li {
+    float: left;
+}
+.app-header ul a {
+    border-left: 1px solid #666;
+    padding:0 10px;
+    font-size: 16px;
+}
+
+.app-header ul li:first-child a {
+    border: 0;
+    color: #dd302d;
+}
+.app-header ul li:last-child a {
+    padding-right: 0;
+}
+
+/* 家用电器区主体样式 */
+.appliance {
+    font-size: 0;
+}
+.appliance>div {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.appliances-menu {
+    background-color: #f4f4f4;
+    height: 432px;
+}
+.app-menu {
+    width: 230px;
+    height: 138px;
+    padding-top: 20px;
+}
+.app-menu ul {
+    width: 100%;
+    font-size: 0px;
+    height: 118px;
+}
+.app-menu li {
+    width: 45%;
+    height: 26px;
+    display: inline-block;
+    border-bottom: #d9d9d9 solid 1px;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 2.5%;
+    margin-bottom: 14px;
+}
+.appliances-menu img {
+    margin: 0 auto;
+}
+.appliance>div>img {
+    border-bottom: 1px #e2e2e2 solid;
+}
+.appliance>div:nth-last-child(2)>img {
+    border-width:0 1px 1px 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+}
+/* #endregion */
+
+/* #region页脚样式 */
+.footer {
+    height: 440px;
+    background-color: #483e3e;
+    margin-top: 48px;
+    overflow: hidden;
+}
+.footer .container {
+    margin-top: 48px;
+    font-size: 0;
+    position: relative;
+}
+.footer-main {
+    height: 200px;
+    border-bottom: 1px solid #584d4d;
+}
+.footer .footer-main dl {
+    display: inline-block;
+    width: 190px;
+    font-size: 14px;
+    color: white;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.footer .footer-main dl a {
+    font-size: 14px;
+    color: white;
+}
+.footer .footer-main dl:last-child {
+    margin: 0;
+}
+.footer .footer-a {
+    position: absolute;
+    margin: 0 auto;
+    top: 294px;
+    left: 90px;
+    text-align: center;
+}
+.footer .footer-a ul {
+    width: 1010px;
+    font-size: 0;
+}
+.footer-a ul li {
+    width: 10%;
+    display: inline-block;
+}
+.footer-a li::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #d9d9d9;
+}
+.footer-a li:last-child::after {
+    content: none;
+    
+}
+.footer-a li a {
+    font-size: 14px;
+    color: white;
+    margin-right: 26px;
+}
+.footer .footer-a span {
+    font-size: 14px;
+    color: #d9d9d9;
+}
+/* #endregion */
